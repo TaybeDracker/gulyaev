@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование </title>
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logogo.svg" alt="">
+        <div class="shapka">
+            <a href="">Бронирование</a>
+            <a href="">Поиск</a>
+            <a href="">Акции</a>
+        </div>
+    </header>
+    <img class="fly1" src="img/logotip-poezda.png" alt="">
+    <div class="order_data">
+        <h1>Данные о заказе</h1>
+        <p align="justify">Регион: </p>
+
+        <p align="justify">Название маршрута: 
+            <select name="route_name" id="input-select">
+                <option value="zone1">Подводная река</option>
+                <option value="zone2">Сеть пещер</option>
+                <option value="zone3">Ущелье бандеро</option>
+            </select>
+        </p>
+
+        <form action="handler.php">
+            <p align="justify">Выбор предполагаемого маршрута</p>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Гора Богдо</p>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Кунгурская ледяная пещера</p>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Озеро Эльтон</p>
+        </form>
+        
+        <div class="date">
+            <p align="justify">Предполагаемая дата похода: </p>
+        </div>
+
+        <div class="persons">
+            <p align="justify">Количество участников: </p>
+        </div>
+
+        <div class="price">
+            <p align="justify">Стоимость:  руб.</p>
+        </div>
+    </div>
+
+    <div class="additional_services">
+        <form action="handler.php">
+            <h1>Дополнительные услуги</h1>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Услуги проводника</p>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Услуги аренды туристического оборудования</p>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Услуги фотографа/видеооператора</p>
+            <p align="justify"><input type="checkbox" name="a" value="2000"> Страхование от несчастных случаев</p>
+        </form>
+    </div>
+
+    <div class="commentaries">
+        <h1>Дополнительные комментарии к заказу</h1>
+        <input type="text" placeholder="Ну сделайте скидку =(">
+    </div>
+
+    <div class="email">
+        <h1>Ваша электронная почта</h1>
+        <input type="text" placeholder="mail@mail.ru">
+    </div>
+
+    <div class="total_price">
+        <h1>Итоговая стоимость: руб.</h1>
+    </div>
+
+    <button class="order">Оформить заказ!</button>
+
+    <footer>
+        <h1>Телефон: 8 (800) 555-33-10</h1>
+        <hr>
+        <div class="navigation">
+            <ul>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="search.html">Поиск маршрутов</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="place.html">Зоны для посещения</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

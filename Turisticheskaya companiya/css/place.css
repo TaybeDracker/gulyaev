@@ -1,0 +1,141 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(5, 31, 31, 0.61);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 380px;
+    margin-right: 300px;
+}
+.flying{
+    margin-left: 950px;
+    margin-top: -500px;
+    margin-bottom: 250px;
+    width: 190px;
+}
+header img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+header{
+    width: 1550px;
+    height: 200px;
+    background-color: rgba(5, 31, 31, 0.767);
+    display: flex;
+    border-radius: 10px;
+    margin-left: -375px;
+}
+
+.shapka{
+    display: inline-block;
+    margin: auto;
+    word-spacing: 81px;
+    margin-left: -5px;
+}
+
+.shapka a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgba(5, 31, 31, 0.767);
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+footer li{
+    display: inline; 
+    margin-right: 30px; 
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+.main{
+    color: white;
+    
+}
+
+.main_info{
+    background-color: rgba(5, 31, 31, 0.767);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 65px;
+    height: 130px;
+    width: 1340px;
+    margin-left: -165px;
+}
+
+.zone{
+    height: 500px;
+    display: flex;
+    background-color: rgba(5, 31, 31, 0.767);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.zone img{
+    width: 450px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.zone_info{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.zone_info input{
+    height: 197px;
+}
+
+.zone_info img{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.zone_text{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.zone_info2 img{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.zone_info2{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.zone1{
+    display: flex;
+}
+
+.zone2{
+    display: flex;
+}
+

@@ -1,0 +1,142 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(5, 31, 31, 0.61);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 450px;
+}
+.fly1{
+    margin-left: 940px;
+    margin-top: -150px;
+    margin-bottom: 130px;
+    width: 110px;
+}
+header img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+header{
+   width: 1656px;
+    height: 200px;
+    background-color: rgba(5, 31, 31, 0.767);
+    display: flex;
+    border-radius: 10px;
+    margin-left: -475px;
+    margin-right: 260px;
+}
+
+.shapka{
+    display: inline-block;
+    margin: auto;
+    word-spacing: 81px;
+    margin-left: px;
+}
+.shapka a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgba(5, 31, 31, 0.767);
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+footer li{
+    display: inline; 
+    margin-right: 30px; 
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+.order_data{
+    width: 1000px;
+    background-color: rgba(5, 31, 31, 0.767);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.order_data p{
+    padding-left: 350px;
+}
+
+.additional_services{
+    background-color: rgba(5, 31, 31, 0.767);
+    margin-top: 65px;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    width: 1000px;
+    text-align: center;
+    
+}
+
+.additional_services p{
+    font-size: 20px;
+    padding-left: 350px;
+}
+
+.commentaries{
+    background-color: rgba(5, 31, 31, 0.767);
+    margin-top: 65px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.email{
+    background-color: rgba(5, 31, 31, 0.767);
+    border-radius: 10px;
+    color:white;
+    margin-top: 65px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.total_price{
+    background-color: rgba(5, 31, 31, 0.767);
+    margin-top: 65px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.order{
+    background-color: rgba(5, 31, 31, 0.767);
+    color: white;
+    border-radius: 10px;
+    margin-top: 65px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 500px;
+    height: 70px;
+}

@@ -1,0 +1,111 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(5, 31, 31, 0.61);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 166px;
+    margin-right: px;
+}
+header img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+.fly11{
+    width: 180px;
+    margin-left: 200px;
+    margin-top: -250px;
+    margin-bottom: -50px;
+}
+header{
+    width: 1350px;
+    height: 200px;
+    background-color: rgba(5, 31, 31, 0.767);
+    display: flex;
+    border-radius: 10px;
+    margin-left: -175px;
+}
+
+.shapka{
+    display: inline-block;
+    margin: auto;
+    word-spacing: 81px;
+}
+
+.shapka a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgba(5, 31, 31, 0.767);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 221px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+footer li{
+    display: inline; 
+    margin-right: 30px; 
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+.main{
+    border-radius: 10px;
+    margin-top: 65px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(5, 31, 31, 0.767);
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main_info{
+    display: flex;
+    height: 250px;
+}
+
+.place{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(5, 31, 31, 0.767);
+}
+
+.zone1{
+    width: 300px;
+    height: 250px;
+    padding-left: 33px;
+}
+
+.zone2{
+    width: 300px;
+    height: 250px;
+    padding-left: 33px;
+}
+
+.zone3{
+    width: 300px;
+    height: 250px;
+    padding-left: 33px;
+}

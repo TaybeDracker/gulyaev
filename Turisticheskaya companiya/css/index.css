@@ -1,0 +1,298 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(5, 31, 31, 0.61);
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 370px;
+    margin-right: 200px;
+}
+.title{
+    margin-left: 90px;
+    margin-top: -550px;
+    margin-bottom: 500px;
+    color: aliceblue;
+    width: 1000px;
+    height: 300px;
+    font-size: 4.8rem;
+}
+.fly {
+    margin-left: 120px;
+    margin-top: -62px;
+    margin-bottom: -34px;
+    width: 170px;
+}
+
+.number1 {
+    width: 1320px;
+    margin-left: -162px;
+    margin-top: 50px;
+}
+
+header {
+    width: 2325px;
+    height: 150px;
+    background-color: rgba(5, 31, 31, 0.767);
+    display: flex;
+    border-radius: 10px;
+    margin-left: -768px;
+}
+
+.shapka {
+    display: inline-block;
+    margin: auto;
+    word-spacing: 81px;
+    margin-left: -1px;
+}
+
+.shapka a {
+    text-decoration: none;
+    color: rgb(248, 236, 236);
+    font-size: 1.6rem;
+    margin-left: 92px;
+}
+
+.img_hover {
+    transition: 1s;
+}
+
+.img_hover:hover {
+    transform: scale(1.2);
+}
+
+.info_curcle {
+    width: 700px;
+    margin-left: 50px;
+}
+
+.infograf h1 {
+    background-color: rgba(5, 31, 31, 0.767);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.search {
+    display: flex;
+    padding-bottom: 30px;
+    margin-left: 72px;
+}
+
+.search button {
+    margin: auto;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.main {
+    margin-top: 65px;
+    background-color: rgba(5, 31, 31, 0.767);
+    color: white;
+    width: 1000px;
+    padding-top: 10px;
+    width: 1350px;
+    margin-left: -175px;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.ZOV {
+    width: 1000px;
+    color: white;
+    margin-top: -165px;
+    border-radius: 100px;
+}
+
+.blank {
+    width: 100px;
+}
+
+.aye {
+    display: flex;
+    font-size: 20px;
+}
+
+.blatnoi {
+    text-align: center;
+    background-color: rgba(5, 31, 31, 0.767);
+    border-radius: 10px;
+    width: 450px;
+    top: 40px;
+}
+
+.konkretni {
+    font-size: 20px;
+    background-color: rgba(5, 31, 31, 0.767);
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+}
+
+.popuskalovo {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(5, 31, 31, 0.767);
+    padding-top: 5px;
+    width: 1360px;
+    margin-left: -180px;
+}
+.oclock{
+    width: 100px;
+    height: 100px;
+    margin-left: 960px;
+    margin-top: 260px;
+    margin-bottom: -350px;
+    border-radius: 100px;
+}
+.oclock1{
+    width: 100px;
+    height: 100px;
+    margin-left: 960px;
+    margin-top: 260px;
+    margin-bottom: -650px;
+    border-radius: 100px;
+}
+.oclock2{
+    width: 100px;
+    height: 100px;
+    margin-left: 970px;
+    margin-top: 260px;
+    margin-bottom: -910px;
+    border-radius: 100px;
+}
+.stock-text__descriptionic{
+    font-size: 1.5rem;
+}
+.stock-text__description1{
+    font-size: 1.5rem;
+}
+.stock-text__description2{
+    font-size: 1.5rem;
+}
+.reviews {
+    display: flex;
+    width: 700px;
+    font-size: 18px;
+    margin-left: 190px;
+}
+
+.review1 {
+    text-align: justify;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.review2 {
+    text-align: justify;
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.review3 {
+    text-align: justify;
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+}
+.review4 {
+    text-align: justify;
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.subscribe {
+    background-color: rgba(5, 31, 31, 0.767);
+    width: 1000px;
+    height: 125px;
+    color: white;
+    text-align: center;
+    margin-top: 65px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: rgba(5, 31, 31, 0.767);
+    width: 2114px;
+    border-radius: 10px;
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    margin-left: -557px;
+}
+
+footer li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.discounts {
+    background-color: rgba(5, 31, 31, 0.767);
+    color: white;
+    margin-top: 65px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 1320px;
+    margin-left: -172px;
+    height: 950px;
+}
+
+.discounts img {
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+.tour1 {
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.text {
+    width: 400px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.text p {
+    text-align: justify center;
+}
+
+
+.tour2 {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.tour3 {
+    display: flex;
+}
+
+.discounts h1 {
+    text-align: center;
+}
